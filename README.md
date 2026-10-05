@@ -1,12 +1,30 @@
 # Expense Tracker
 
-Install dependencies and start the frontend and API together:
+A simple Expense Tracker application that helps users keep track of their daily expenses.
 
-```sh
-npm install
-npm run dev
-```
+## Features
 
-The Vite app runs at `http://localhost:5173` and proxies `/api` requests to the Node API on port `3001`. Start only the API with `npm run api`.
+* Add and manage expenses
+* View expense details
+* Track spending
+* Simple and easy-to-use interface
 
-The API stores account and expense data in `data/expense-tracker.json`. That file is created automatically and should be kept private and out of version control. Passwords are stored as salted scrypt hashes; login sessions use an HttpOnly cookie. Sessions are held in server memory and are cleared when the API restarts.
+## Technologies Used
+
+* HTML
+* CSS
+* JavaScript
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project folder.
+3. Open the main HTML file in a browser.
+
+## Project
+
+This project was created as part of my learning and practice in web development.
+
+## Author
+
+Pragun Lal Shrestha
